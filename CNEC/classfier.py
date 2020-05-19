@@ -108,7 +108,7 @@ def main():
     bow_vectorizer, bow_train_features = bow_extractor(norm_train_corpus)
     bow_test_features = bow_vectorizer.transform(norm_test_corpus)
 
-    # tfidf ÌØÕ÷
+    # tfdf ÌØÕ÷
     tfidf_vectorizer, tfidf_train_features = tfidf_extractor(norm_train_corpus)
     tfidf_test_features = tfidf_vectorizer.transform(norm_test_corpus)
 
